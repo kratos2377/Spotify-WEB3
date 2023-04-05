@@ -6,7 +6,7 @@ const styles = {
   const NavLink = ({ title, icon }) => {
     return (
       <div className={styles.navLink}>
-        <img alt='' src={icon} width={20} height={20} />
+        <img alt='' src={icon.default} width={20} height={20} />
         <p className={styles.navLinkText}>{title}</p>
       </div>
     )

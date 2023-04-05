@@ -10,7 +10,7 @@ const Nav = () => {
   return (
     <div className={styles.nav}>
       <div className='mb-10'>
-        <NavLink icon='assets/home.svg' title='Home' className={styles.link} />
+        <NavLink icon='../assets/home.svg' title='Home' className={styles.link} />
         <NavLink
           icon='assets/search.svg'
           title='Search'
