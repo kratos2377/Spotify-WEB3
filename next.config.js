@@ -12,7 +12,8 @@ const nextConfig = {
       'angartwork.akamaized.net',
       "i.scdn.co",
       "resources.tidal.com",
-      "encrypted-tbn1.gstatic.com"
+      "encrypted-tbn1.gstatic.com",
+      'angartwork.akamaized.net',
     ],
   },
 }

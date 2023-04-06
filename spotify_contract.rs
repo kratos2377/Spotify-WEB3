@@ -84,7 +84,6 @@ pub struct CreateMusic<'info> {
     #[account(mut)]
     pub authority: Signer<'info>,
 
-    #[account(mut)]
     pub system_program: UncheckedAccount<'info>,
 
     //Token Program
